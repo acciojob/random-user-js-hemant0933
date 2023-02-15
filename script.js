@@ -32,4 +32,5 @@ emailButton.addEventListener('click',function(){
 phoneButton.addEventListener('click',function(){
 	additionalInfo.innerText = 'Phone: ' + fullName.dataset.phone;
 })
+
 getUserButton.click();
