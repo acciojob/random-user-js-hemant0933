@@ -31,18 +31,18 @@ getUserButton.addEventListener('click',function(){
 	// });
 });
 
-const ageButton = document.querySelector('[data-attr='age']');
-const emailButton = document.querySelector('[data-attr='email']');
-const phoneButton = document.querySelector('[data-attr='phone']');
+const ageButton = document.querySelector('[data-attr="age"]');
+const emailButton = document.querySelector('[data-attr="email"]');
+const phoneButton = document.querySelector('[data-attr="phone"]');
 
-ageButton.addEventListener('click',function(){
-	additionalInfo.innerText = 'Age: '+fullName.dataset.age;
+ageButton.addEventListener("click",function(){
+	additionalInfo.innerText = "Age: "+fullName.dataset.age;
 })
-emailButton.addEventListener('click',function(){
-	additionalInfo.innerText = 'Email: ' + fullName.dataset.email;
+emailButton.addEventListener("click",function(){
+	additionalInfo.innerText = "Email: " + fullName.dataset.email;
 })
-phoneButton.addEventListener('click',function(){
-	additionalInfo.innerText = 'Phone: ' + fullName.dataset.phone;
+phoneButton.addEventListener("click",function(){
+	additionalInfo.innerText = "Phone: " + fullName.dataset.phone;
 })
 
 getUserButton.click();
